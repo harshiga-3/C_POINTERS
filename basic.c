@@ -11,13 +11,13 @@ int main() {
    
    printf("value of *p =%d\n",*p);
    printf("address of a =%d\n",p);
-   //printf("address of a use &a = %d\n",&a);
-  // printf("address of p =%d\n",&p);
+   printf("address of a use &a = %d\n",&a);
+   printf("address of p =%d\n",&p);
    
- ////  printf("addres of p+1 =%d\n", p+1);
- //  printf("value of *p+1 =%d\n",*(p+1));
+  printf("addres of p+1 =%d\n", p+1);
+  printf("value of *p+1 =%d\n",*(p+1));
    
-  /*int b=20;
+  *int b=20;
    *p=b;
    printf("value of b =%d\n",*p);
    printf("address of p=%d\n",p);
